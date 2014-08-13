@@ -14,8 +14,13 @@ if bufwinnr(1)
   map - <C-W>-
 endif
 
+set rtp+=/opt/go/misc/vim
+
 syntax enable
 syntax on
-filetype on
+filetype plugin indent on
 
 au BufNewFile,BufRead *.jy set filetype=python
+au BufRead,BufNewFile *.go set filetype=go
+
+
