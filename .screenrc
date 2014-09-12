@@ -1,0 +1,5 @@
+defscrollback         30000
+hardstatus on
+hardstatus alwayslastline "%{= kw} %{= kc}[%{-}%0c%{= kc}]%{-} [%-Lw%{= kW}%{+b}%50>%n%f* %t%{-b}%{= kw}%+Lw]%<"
+startup_message off
+
